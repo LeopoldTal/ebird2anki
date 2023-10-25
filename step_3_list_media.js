@@ -29,17 +29,14 @@ const EXTENSION = {
 	'image/jpeg': 'jpg',
 	'image/png': 'png',
 	'audio/wav': 'mp3',
+	'audio/x-wav': 'mp3',
+	'audio/mpeg': 'mp3',
 };
 
-const downloadAsset = ({ url, mediaFileName }) => {
-	// TODO: remove guard
-	TEST_MEDIA = [];
-	if (!TEST_MEDIA.includes(mediaFileName)) {
-		return;
-	}
-
+const downloadAsset = ({ url, mediaFileName }) => new Promise((resolve, reject) => {
 	const mediaFilePath = MEDIA_DIR + mediaFileName;
-	if (fs.existsSync(mediaFileName)) {
+	if (fs.existsSync(mediaFilePath)) {
+		resolve('nothing to do');
 		return;
 	}
 
@@ -48,13 +45,26 @@ const downloadAsset = ({ url, mediaFileName }) => {
 	https.get(url, (res) => {
 		res.pipe(outFile);
 		outFile.on('finish', () => {
-			const callback = () => console.log('Download to', mediaFilePath, 'complete')
+			const callback = () => {
+				console.log('Download to', mediaFilePath, 'complete');
+				resolve(mediaFilePath);
+			};
 			outFile.close(callback);
 		});
 	}).on('error', (err) => {
 		fs.unlink(mediaFilePath);
 		console.error('Download failed', err, url, mediaFilePath);
+		reject(mediaFilePath);
 	});
+});
+
+const downloadAssets = async ({ photos, audios }) => {
+	for (let index = 0 ; index < photos.length ; index++) {
+		await downloadAsset(photos[index]);
+	}
+	for (let index = 0 ; index < audios.length ; index++) {
+		await downloadAsset(audios[index]);
+	}
 };
 
 const getMedia = (page, needle, fpath, { commonName, sciName, slug, freq }) => {
@@ -117,7 +127,7 @@ const makeAudioCard = ({ mediaFileName, commonName, sciName, freq }, photos, ind
 	};
 };
 
-const parseBird = (fpath) => {
+const parseBird = async(fpath) => {
 	const slug = fpath.split('/').pop().split('.html')[0];
 	const bird = BIRDS[slug];
 	const page = fs.readFileSync(fpath, 'utf8');
@@ -125,8 +135,7 @@ const parseBird = (fpath) => {
 	const photos = getMedia(page, /\bphotoAssetsJson\s*=/, fpath, bird);
 	const audios = getMedia(page, /\baudioAssetsJson\s*=/, fpath, bird);
 
-	photos.forEach(downloadAsset);
-	audios.forEach(downloadAsset);
+	await downloadAssets({ photos, audios });
 
 	const photoCards = photos.map((photo, index) => makePhotoCard(photo, audios, index));
 	const audioCards = audios.map((audio, index) => makeAudioCard(audio, photos, index));
@@ -142,10 +151,16 @@ const exportCards = (cards) => {
 	fs.writeFileSync(CARDS_CSV_PATH, dump, 'utf-8');
 };
 
-const makeAllCards = () => {
+const makeAllCards = async () => {
 	const fnames = fs.readdirSync(INPUT_DIR);
-	const allCards = fnames.map(fname => INPUT_DIR + fname).flatMap(parseBird);
+	const fpaths = fnames.map(fname => INPUT_DIR + fname);
 
+	let allCards = [];
+	for (let index = 0 ; index < fpaths.length ; index++) {
+		const cards = await parseBird(fpaths[index]);
+		allCards = allCards.concat(cards);
+	}
+	
 	diffuseSort(allCards, (a, b) => b.freq - a.freq);
 	
 	fs.writeFileSync(CARDS_JSON_PATH, JSON.stringify(allCards, null, 2), 'utf-8');
