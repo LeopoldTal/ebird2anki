@@ -97,7 +97,14 @@ const getMedia = (page, needle, fpath, { commonName, sciName, slug, freq }) => {
 
 const makePhotoCard = ({ mediaFileName, commonName, sciName, freq }, audios, index) => {
 	if (!audios.length) {
-		return [];
+		return {
+			media: `<img src="${mediaFileName}">`,
+			questionPlaceholder: '',
+			commonName: commonName,
+			scientificName: sciName,
+			answerMedia: `[No audio recording on eBird]`,
+			freq,
+		};
 	}
 	const audioIndex = index % audios.length;
 	const answerMediaFileName = audios[audioIndex].mediaFileName;
@@ -113,7 +120,14 @@ const makePhotoCard = ({ mediaFileName, commonName, sciName, freq }, audios, ind
 
 const makeAudioCard = ({ mediaFileName, commonName, sciName, freq }, photos, index) => {
 	if (!photos.length) {
-		return [];
+		return {
+			media: `[sound:${mediaFileName}]`,
+			questionPlaceholder: '🎵',
+			commonName: commonName,
+			scientificName: sciName,
+			answerMedia: '[No photo on eBird]',
+			freq,
+		};
 	}
 	const photoIndex = (index + 1) % photos.length;
 	const answerMediaFileName = photos[photoIndex].mediaFileName;
