@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Diffusing across a list</title>
+	<style>
+		#demo {
+			width: 768px;
+			height: 200px;
+			margin: 50px auto;
+			border: 1px solid darkred;
+		}
+
+		.slice {
+			display: inline-block;
+			width: 3px;
+			height: 100%;
+		}
+
+		#counter {
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="demo"></div>
+	<p id="counter"></p>
+	<script>
+		const NB_COLOURS = 256;
+		const STEP_IN_MS = 100;
+		const NB_STEPS = 128;
+		window.diffusionStep = 0;
+
+		const demo = document.getElementById('demo');
+
+		const setup = () => {
+			for (let colour = 0; colour < NB_COLOURS; colour++) {
+				const slice = document.createElement('div');
+				slice.className = 'slice';
+				const flat_colour = 8 * Math.floor(colour / 8);
+				slice.style.backgroundColor = `rgb(${flat_colour}, ${flat_colour}, ${flat_colour})`;
+				demo.appendChild(slice);
+			}
+		};
+
+		const diffuse1Slice = () => {
+			const hereIndex = Math.floor(NB_COLOURS * Math.random());
+			const neighIndex = Math.random() < 0.5
+				? Math.max(hereIndex - 1, 0)
+				: Math.min(NB_COLOURS - 1, hereIndex + 1);
+			const hereSlice = demo.children[hereIndex];
+			const neighSlice = demo.children[neighIndex];
+			const temp = hereSlice.style.backgroundColor;
+			hereSlice.style.backgroundColor = neighSlice.style.backgroundColor;
+			neighSlice.style.backgroundColor = temp;
+		};
+
+		const diffuse1Pass = () => {
+			window.diffusionStep++;
+			document.getElementById('counter').textContent = window.diffusionStep;
+			if (window.diffusionStep >= NB_STEPS) {
+				clearInterval(window.diffusionInterval);
+			}
+			for (let _ = 0; _ < NB_COLOURS; _++) {
+				diffuse1Slice();
+			}
+		};
+
+		const main = () => {
+			setup();
+			window.diffusionInterval = setInterval(diffuse1Pass, STEP_IN_MS);
+		};
+		main();
+	</script>
+</body>
+
+</html>

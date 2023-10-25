@@ -1,5 +1,6 @@
 const fs = require('fs');
 const https = require('https');
+const { diffuseSort } = require('./diffuse_sort');
 
 const LIST_PATH = './step_1_victoria_bird_list.tsv';
 const INPUT_DIR = './step_2_bird_pages/';
@@ -64,18 +65,18 @@ const getMedia = (page, needle, fpath, { commonName, sciName, slug, freq }) => {
 			.split(needle)[1]
 			.trim();
 		if (mediaJson === '{ galleryAssets: [] }') {
-			console.warn('No media:', fpath);
+			console.warn('No media:', fpath, needle);
 			return [];
 		}
 		const media = JSON.parse(mediaJson);
 		if (!media.galleryAssets) {
-			console.warn('No media:', fpath);
+			console.warn('No media:', fpath, '(gallery assets)');
 			return [];
 		}
 		return media.galleryAssets.map(({ asset: { assetId, mlBaseDownloadUrl, mimeType } }) => ({
 			url: `${mlBaseDownloadUrl}${assetId}`,
 			mimeType,
-			mediaFileName: `${slug}-${assetId}.${EXTENSION[mimeType]}`,
+			mediaFileName: `ebird2anki-${slug}-${assetId}.${EXTENSION[mimeType]}`,
 			commonName, sciName, slug, freq,
 		}));
 	} catch (err) {
@@ -138,16 +139,16 @@ const formatCard = ({ media, questionPlaceholder, commonName, scientificName, an
 
 const exportCards = (cards) => {
 	const dump = cards.map(formatCard).join('');
-	fs.writeFileSync(CARDS_PATH, dump, 'utf-8');
+	fs.writeFileSync(CARDS_CSV_PATH, dump, 'utf-8');
 };
 
 const makeAllCards = () => {
 	const fnames = fs.readdirSync(INPUT_DIR);
 	const allCards = fnames.map(fname => INPUT_DIR + fname).flatMap(parseBird);
 
-	// TODO: I'd like something locally random but weighted by freq - see diffusion demo
-	allCards.sort((a, b) => b.freq - a.freq);
-
+	diffuseSort(allCards, (a, b) => b.freq - a.freq);
+	
+	fs.writeFileSync(CARDS_JSON_PATH, JSON.stringify(allCards, null, 2), 'utf-8');
 	exportCards(allCards);
 	console.log(allCards.length, 'cards');
 };
