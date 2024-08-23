@@ -1,0 +1,906 @@
+[
+  {
+    "media": "[sound:ebird2anki-ruffan13-539143.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "Australian Rufous Fantail",
+    "scientificName": "Rhipidura rufifrons",
+    "answerMedia": "<img src=\"ebird2anki-ruffan13-125800551.jpg\">",
+    "freq": 1.1
+  },
+  {
+    "media": "<img src=\"ebird2anki-ruffan13-125800561.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Australian Rufous Fantail",
+    "scientificName": "Rhipidura rufifrons",
+    "answerMedia": "[sound:ebird2anki-ruffan13-539145.mp3]",
+    "freq": 1.1
+  },
+  {
+    "media": "[sound:ebird2anki-ruffan13-539144.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "Australian Rufous Fantail",
+    "scientificName": "Rhipidura rufifrons",
+    "answerMedia": "<img src=\"ebird2anki-ruffan13-125800561.jpg\">",
+    "freq": 1.1
+  },
+  {
+    "media": "<img src=\"ebird2anki-integr2-609472197.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Plumed Egret",
+    "scientificName": "Ardea plumifera",
+    "answerMedia": "[No audio recording on eBird]",
+    "freq": 0.2626
+  },
+  {
+    "media": "<img src=\"ebird2anki-gubter3-609497171.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Australian Tern",
+    "scientificName": "Gelochelidon macrotarsa",
+    "answerMedia": "[No audio recording on eBird]",
+    "freq": 0.209
+  },
+  {
+    "media": "<img src=\"ebird2anki-gubter3-609497168.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Australian Tern",
+    "scientificName": "Gelochelidon macrotarsa",
+    "answerMedia": "[No audio recording on eBird]",
+    "freq": 0.209
+  },
+  {
+    "media": "<img src=\"ebird2anki-integr2-122698511.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Plumed Egret",
+    "scientificName": "Ardea plumifera",
+    "answerMedia": "[No audio recording on eBird]",
+    "freq": 0.2626
+  },
+  {
+    "media": "[sound:ebird2anki-ruffan13-539145.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "Australian Rufous Fantail",
+    "scientificName": "Rhipidura rufifrons",
+    "answerMedia": "<img src=\"ebird2anki-ruffan13-125800581.jpg\">",
+    "freq": 1.1
+  },
+  {
+    "media": "<img src=\"ebird2anki-integr2-122698521.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Plumed Egret",
+    "scientificName": "Ardea plumifera",
+    "answerMedia": "[No audio recording on eBird]",
+    "freq": 0.2626
+  },
+  {
+    "media": "<img src=\"ebird2anki-ruffan13-125800581.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Australian Rufous Fantail",
+    "scientificName": "Rhipidura rufifrons",
+    "answerMedia": "[sound:ebird2anki-ruffan13-539143.mp3]",
+    "freq": 1.1
+  },
+  {
+    "media": "<img src=\"ebird2anki-ruffan13-125800571.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Australian Rufous Fantail",
+    "scientificName": "Rhipidura rufifrons",
+    "answerMedia": "[sound:ebird2anki-ruffan13-539143.mp3]",
+    "freq": 1.1
+  },
+  {
+    "media": "<img src=\"ebird2anki-integr2-609472198.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Plumed Egret",
+    "scientificName": "Ardea plumifera",
+    "answerMedia": "[No audio recording on eBird]",
+    "freq": 0.2626
+  },
+  {
+    "media": "<img src=\"ebird2anki-gubter3-609497166.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Australian Tern",
+    "scientificName": "Gelochelidon macrotarsa",
+    "answerMedia": "[No audio recording on eBird]",
+    "freq": 0.209
+  },
+  {
+    "media": "<img src=\"ebird2anki-gubter3-609497169.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Australian Tern",
+    "scientificName": "Gelochelidon macrotarsa",
+    "answerMedia": "[No audio recording on eBird]",
+    "freq": 0.209
+  },
+  {
+    "media": "<img src=\"ebird2anki-gubter2-609496610.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Gull-billed Tern",
+    "scientificName": "Gelochelidon nilotica",
+    "answerMedia": "[sound:ebird2anki-gubter2-548904.mp3]",
+    "freq": 0.0582
+  },
+  {
+    "media": "<img src=\"ebird2anki-ruffan13-125800551.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Australian Rufous Fantail",
+    "scientificName": "Rhipidura rufifrons",
+    "answerMedia": "[sound:ebird2anki-ruffan13-539144.mp3]",
+    "freq": 1.1
+  },
+  {
+    "media": "<img src=\"ebird2anki-antalb1-609862742.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Antipodean Albatross",
+    "scientificName": "Diomedea antipodensis",
+    "answerMedia": "[sound:ebird2anki-antalb1-544461.mp3]",
+    "freq": 0.0375
+  },
+  {
+    "media": "<img src=\"ebird2anki-gubter3-617183399.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Australian Tern",
+    "scientificName": "Gelochelidon macrotarsa",
+    "answerMedia": "[No audio recording on eBird]",
+    "freq": 0.209
+  },
+  {
+    "media": "<img src=\"ebird2anki-gubter3-617183392.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Australian Tern",
+    "scientificName": "Gelochelidon macrotarsa",
+    "answerMedia": "[No audio recording on eBird]",
+    "freq": 0.209
+  },
+  {
+    "media": "<img src=\"ebird2anki-integr2-609472196.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Plumed Egret",
+    "scientificName": "Ardea plumifera",
+    "answerMedia": "[No audio recording on eBird]",
+    "freq": 0.2626
+  },
+  {
+    "media": "<img src=\"ebird2anki-yenalb3-609720987.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Indian Yellow-nosed Albatross",
+    "scientificName": "Thalassarche carteri",
+    "answerMedia": "[No audio recording on eBird]",
+    "freq": 0.11
+  },
+  {
+    "media": "<img src=\"ebird2anki-gubter2-308387671.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Gull-billed Tern",
+    "scientificName": "Gelochelidon nilotica",
+    "answerMedia": "[sound:ebird2anki-gubter2-548904.mp3]",
+    "freq": 0.0582
+  },
+  {
+    "media": "<img src=\"ebird2anki-gubter2-308387571.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Gull-billed Tern",
+    "scientificName": "Gelochelidon nilotica",
+    "answerMedia": "[sound:ebird2anki-gubter2-535360.mp3]",
+    "freq": 0.0582
+  },
+  {
+    "media": "<img src=\"ebird2anki-antalb1-609862748.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Antipodean Albatross",
+    "scientificName": "Diomedea antipodensis",
+    "answerMedia": "[sound:ebird2anki-antalb1-544460.mp3]",
+    "freq": 0.0375
+  },
+  {
+    "media": "<img src=\"ebird2anki-gubter3-609497165.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Australian Tern",
+    "scientificName": "Gelochelidon macrotarsa",
+    "answerMedia": "[No audio recording on eBird]",
+    "freq": 0.209
+  },
+  {
+    "media": "<img src=\"ebird2anki-yenalb3-609720983.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Indian Yellow-nosed Albatross",
+    "scientificName": "Thalassarche carteri",
+    "answerMedia": "[No audio recording on eBird]",
+    "freq": 0.11
+  },
+  {
+    "media": "[sound:ebird2anki-gubter2-535360.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "Gull-billed Tern",
+    "scientificName": "Gelochelidon nilotica",
+    "answerMedia": "<img src=\"ebird2anki-gubter2-308387831.jpg\">",
+    "freq": 0.0582
+  },
+  {
+    "media": "<img src=\"ebird2anki-yenalb3-609720985.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Indian Yellow-nosed Albatross",
+    "scientificName": "Thalassarche carteri",
+    "answerMedia": "[No audio recording on eBird]",
+    "freq": 0.11
+  },
+  {
+    "media": "<img src=\"ebird2anki-antalb1-609862751.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Antipodean Albatross",
+    "scientificName": "Diomedea antipodensis",
+    "answerMedia": "[sound:ebird2anki-antalb1-544460.mp3]",
+    "freq": 0.0375
+  },
+  {
+    "media": "<img src=\"ebird2anki-gubter2-308387831.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Gull-billed Tern",
+    "scientificName": "Gelochelidon nilotica",
+    "answerMedia": "[sound:ebird2anki-gubter2-535361.mp3]",
+    "freq": 0.0582
+  },
+  {
+    "media": "<img src=\"ebird2anki-yenalb3-609720986.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Indian Yellow-nosed Albatross",
+    "scientificName": "Thalassarche carteri",
+    "answerMedia": "[No audio recording on eBird]",
+    "freq": 0.11
+  },
+  {
+    "media": "<img src=\"ebird2anki-gubter2-308387541.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Gull-billed Tern",
+    "scientificName": "Gelochelidon nilotica",
+    "answerMedia": "[sound:ebird2anki-gubter2-535361.mp3]",
+    "freq": 0.0582
+  },
+  {
+    "media": "<img src=\"ebird2anki-gubter3-308387551.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Australian Tern",
+    "scientificName": "Gelochelidon macrotarsa",
+    "answerMedia": "[No audio recording on eBird]",
+    "freq": 0.209
+  },
+  {
+    "media": "<img src=\"ebird2anki-gubter3-169897771.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Australian Tern",
+    "scientificName": "Gelochelidon macrotarsa",
+    "answerMedia": "[No audio recording on eBird]",
+    "freq": 0.209
+  },
+  {
+    "media": "<img src=\"ebird2anki-antalb1-609862745.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Antipodean Albatross",
+    "scientificName": "Diomedea antipodensis",
+    "answerMedia": "[sound:ebird2anki-antalb1-544461.mp3]",
+    "freq": 0.0375
+  },
+  {
+    "media": "<img src=\"ebird2anki-gubter2-261484601.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Gull-billed Tern",
+    "scientificName": "Gelochelidon nilotica",
+    "answerMedia": "[sound:ebird2anki-gubter2-535360.mp3]",
+    "freq": 0.0582
+  },
+  {
+    "media": "<img src=\"ebird2anki-antalb1-609862749.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Antipodean Albatross",
+    "scientificName": "Diomedea antipodensis",
+    "answerMedia": "[sound:ebird2anki-antalb1-544461.mp3]",
+    "freq": 0.0375
+  },
+  {
+    "media": "[sound:ebird2anki-gubter2-548904.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "Gull-billed Tern",
+    "scientificName": "Gelochelidon nilotica",
+    "answerMedia": "<img src=\"ebird2anki-gubter2-308387571.jpg\">",
+    "freq": 0.0582
+  },
+  {
+    "media": "<img src=\"ebird2anki-antalb1-609862744.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Antipodean Albatross",
+    "scientificName": "Diomedea antipodensis",
+    "answerMedia": "[sound:ebird2anki-antalb1-544460.mp3]",
+    "freq": 0.0375
+  },
+  {
+    "media": "<img src=\"ebird2anki-gubter2-308387391.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Gull-billed Tern",
+    "scientificName": "Gelochelidon nilotica",
+    "answerMedia": "[sound:ebird2anki-gubter2-535361.mp3]",
+    "freq": 0.0582
+  },
+  {
+    "media": "<img src=\"ebird2anki-yenalb3-609720988.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Indian Yellow-nosed Albatross",
+    "scientificName": "Thalassarche carteri",
+    "answerMedia": "[No audio recording on eBird]",
+    "freq": 0.11
+  },
+  {
+    "media": "<img src=\"ebird2anki-antalb1-609862743.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Antipodean Albatross",
+    "scientificName": "Diomedea antipodensis",
+    "answerMedia": "[sound:ebird2anki-antalb1-544460.mp3]",
+    "freq": 0.0375
+  },
+  {
+    "media": "<img src=\"ebird2anki-antalb1-609862747.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Antipodean Albatross",
+    "scientificName": "Diomedea antipodensis",
+    "answerMedia": "[sound:ebird2anki-antalb1-544460.mp3]",
+    "freq": 0.0375
+  },
+  {
+    "media": "<img src=\"ebird2anki-wanalb1-609860356.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Snowy Albatross",
+    "scientificName": "Diomedea exulans",
+    "answerMedia": "[sound:ebird2anki-wanalb1-544458.mp3]",
+    "freq": 0.0261
+  },
+  {
+    "media": "[sound:ebird2anki-antalb1-544460.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "Antipodean Albatross",
+    "scientificName": "Diomedea antipodensis",
+    "answerMedia": "<img src=\"ebird2anki-antalb1-609862742.jpg\">",
+    "freq": 0.0375
+  },
+  {
+    "media": "<img src=\"ebird2anki-yenalb3-609720984.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Indian Yellow-nosed Albatross",
+    "scientificName": "Thalassarche carteri",
+    "answerMedia": "[No audio recording on eBird]",
+    "freq": 0.11
+  },
+  {
+    "media": "[sound:ebird2anki-antalb1-544461.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "Antipodean Albatross",
+    "scientificName": "Diomedea antipodensis",
+    "answerMedia": "<img src=\"ebird2anki-antalb1-609862743.jpg\">",
+    "freq": 0.0375
+  },
+  {
+    "media": "<img src=\"ebird2anki-gubter2-169897801.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Gull-billed Tern",
+    "scientificName": "Gelochelidon nilotica",
+    "answerMedia": "[sound:ebird2anki-gubter2-535360.mp3]",
+    "freq": 0.0582
+  },
+  {
+    "media": "<img src=\"ebird2anki-antalb1-609862746.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Antipodean Albatross",
+    "scientificName": "Diomedea antipodensis",
+    "answerMedia": "[sound:ebird2anki-antalb1-544461.mp3]",
+    "freq": 0.0375
+  },
+  {
+    "media": "[sound:ebird2anki-gubter2-535361.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "Gull-billed Tern",
+    "scientificName": "Gelochelidon nilotica",
+    "answerMedia": "<img src=\"ebird2anki-gubter2-609496610.jpg\">",
+    "freq": 0.0582
+  },
+  {
+    "media": "<img src=\"ebird2anki-wanalb1-609860350.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Snowy Albatross",
+    "scientificName": "Diomedea exulans",
+    "answerMedia": "[sound:ebird2anki-wanalb1-544458.mp3]",
+    "freq": 0.0261
+  },
+  {
+    "media": "<img src=\"ebird2anki-wanalb1-609860360.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Snowy Albatross",
+    "scientificName": "Diomedea exulans",
+    "answerMedia": "[sound:ebird2anki-wanalb1-544459.mp3]",
+    "freq": 0.0261
+  },
+  {
+    "media": "<img src=\"ebird2anki-wanalb1-609860353.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Snowy Albatross",
+    "scientificName": "Diomedea exulans",
+    "answerMedia": "[sound:ebird2anki-wanalb1-505744.mp3]",
+    "freq": 0.0261
+  },
+  {
+    "media": "<img src=\"ebird2anki-royalb3-609704454.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Northern Royal Albatross",
+    "scientificName": "Diomedea sanfordi",
+    "answerMedia": "[sound:ebird2anki-royalb3-534949.mp3]",
+    "freq": 0.0243
+  },
+  {
+    "media": "<img src=\"ebird2anki-wanalb1-609860355.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Snowy Albatross",
+    "scientificName": "Diomedea exulans",
+    "answerMedia": "[sound:ebird2anki-wanalb1-544459.mp3]",
+    "freq": 0.0261
+  },
+  {
+    "media": "<img src=\"ebird2anki-antalb1-609862750.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Antipodean Albatross",
+    "scientificName": "Diomedea antipodensis",
+    "answerMedia": "[sound:ebird2anki-antalb1-544461.mp3]",
+    "freq": 0.0375
+  },
+  {
+    "media": "<img src=\"ebird2anki-wanalb1-609860351.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Snowy Albatross",
+    "scientificName": "Diomedea exulans",
+    "answerMedia": "[sound:ebird2anki-wanalb1-544458.mp3]",
+    "freq": 0.0261
+  },
+  {
+    "media": "<img src=\"ebird2anki-wanalb1-609860358.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Snowy Albatross",
+    "scientificName": "Diomedea exulans",
+    "answerMedia": "[sound:ebird2anki-wanalb1-505744.mp3]",
+    "freq": 0.0261
+  },
+  {
+    "media": "<img src=\"ebird2anki-royalb3-609704458.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Northern Royal Albatross",
+    "scientificName": "Diomedea sanfordi",
+    "answerMedia": "[sound:ebird2anki-royalb3-534951.mp3]",
+    "freq": 0.0243
+  },
+  {
+    "media": "<img src=\"ebird2anki-royalb3-609704460.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Northern Royal Albatross",
+    "scientificName": "Diomedea sanfordi",
+    "answerMedia": "[sound:ebird2anki-royalb3-534950.mp3]",
+    "freq": 0.0243
+  },
+  {
+    "media": "<img src=\"ebird2anki-wanalb1-609860359.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Snowy Albatross",
+    "scientificName": "Diomedea exulans",
+    "answerMedia": "[sound:ebird2anki-wanalb1-544459.mp3]",
+    "freq": 0.0261
+  },
+  {
+    "media": "[sound:ebird2anki-wanalb1-544458.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "Snowy Albatross",
+    "scientificName": "Diomedea exulans",
+    "answerMedia": "<img src=\"ebird2anki-wanalb1-609860360.jpg\">",
+    "freq": 0.0261
+  },
+  {
+    "media": "[sound:ebird2anki-wanalb1-505744.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "Snowy Albatross",
+    "scientificName": "Diomedea exulans",
+    "answerMedia": "<img src=\"ebird2anki-wanalb1-609860350.jpg\">",
+    "freq": 0.0261
+  },
+  {
+    "media": "[sound:ebird2anki-royalb3-534949.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "Northern Royal Albatross",
+    "scientificName": "Diomedea sanfordi",
+    "answerMedia": "<img src=\"ebird2anki-royalb3-609704460.jpg\">",
+    "freq": 0.0243
+  },
+  {
+    "media": "<img src=\"ebird2anki-wanalb1-609860352.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Snowy Albatross",
+    "scientificName": "Diomedea exulans",
+    "answerMedia": "[sound:ebird2anki-wanalb1-505744.mp3]",
+    "freq": 0.0261
+  },
+  {
+    "media": "<img src=\"ebird2anki-royalb3-609704459.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Northern Royal Albatross",
+    "scientificName": "Diomedea sanfordi",
+    "answerMedia": "[sound:ebird2anki-royalb3-534951.mp3]",
+    "freq": 0.0243
+  },
+  {
+    "media": "[sound:ebird2anki-amgplo-548413.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "American Golden-Plover",
+    "scientificName": "Pluvialis dominica",
+    "answerMedia": "<img src=\"ebird2anki-amgplo-297938311.jpg\">",
+    "freq": 0.0232
+  },
+  {
+    "media": "<img src=\"ebird2anki-amgplo-297938101.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "American Golden-Plover",
+    "scientificName": "Pluvialis dominica",
+    "answerMedia": "[sound:ebird2anki-amgplo-548410.mp3]",
+    "freq": 0.0232
+  },
+  {
+    "media": "<img src=\"ebird2anki-royalb3-609704455.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Northern Royal Albatross",
+    "scientificName": "Diomedea sanfordi",
+    "answerMedia": "[sound:ebird2anki-royalb3-534949.mp3]",
+    "freq": 0.0243
+  },
+  {
+    "media": "<img src=\"ebird2anki-amgplo-34645721.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "American Golden-Plover",
+    "scientificName": "Pluvialis dominica",
+    "answerMedia": "[sound:ebird2anki-amgplo-548408.mp3]",
+    "freq": 0.0232
+  },
+  {
+    "media": "[sound:ebird2anki-amgplo-548410.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "American Golden-Plover",
+    "scientificName": "Pluvialis dominica",
+    "answerMedia": "<img src=\"ebird2anki-amgplo-297938271.jpg\">",
+    "freq": 0.0232
+  },
+  {
+    "media": "<img src=\"ebird2anki-wanalb1-609860354.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Snowy Albatross",
+    "scientificName": "Diomedea exulans",
+    "answerMedia": "[sound:ebird2anki-wanalb1-505744.mp3]",
+    "freq": 0.0261
+  },
+  {
+    "media": "[sound:ebird2anki-amgplo-548412.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "American Golden-Plover",
+    "scientificName": "Pluvialis dominica",
+    "answerMedia": "<img src=\"ebird2anki-amgplo-297938391.jpg\">",
+    "freq": 0.0232
+  },
+  {
+    "media": "<img src=\"ebird2anki-royalb3-609704456.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Northern Royal Albatross",
+    "scientificName": "Diomedea sanfordi",
+    "answerMedia": "[sound:ebird2anki-royalb3-534950.mp3]",
+    "freq": 0.0243
+  },
+  {
+    "media": "[sound:ebird2anki-amgplo-548411.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "American Golden-Plover",
+    "scientificName": "Pluvialis dominica",
+    "answerMedia": "<img src=\"ebird2anki-amgplo-324140401.jpg\">",
+    "freq": 0.0232
+  },
+  {
+    "media": "[sound:ebird2anki-royalb3-534950.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "Northern Royal Albatross",
+    "scientificName": "Diomedea sanfordi",
+    "answerMedia": "<img src=\"ebird2anki-royalb3-609704459.jpg\">",
+    "freq": 0.0243
+  },
+  {
+    "media": "<img src=\"ebird2anki-amgplo-297937901.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "American Golden-Plover",
+    "scientificName": "Pluvialis dominica",
+    "answerMedia": "[sound:ebird2anki-amgplo-548408.mp3]",
+    "freq": 0.0232
+  },
+  {
+    "media": "[sound:ebird2anki-wanalb1-544459.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "Snowy Albatross",
+    "scientificName": "Diomedea exulans",
+    "answerMedia": "<img src=\"ebird2anki-wanalb1-609860352.jpg\">",
+    "freq": 0.0261
+  },
+  {
+    "media": "<img src=\"ebird2anki-royalb2-116225101.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Southern Royal Albatross",
+    "scientificName": "Diomedea epomophora",
+    "answerMedia": "[sound:ebird2anki-royalb2-534948.mp3]",
+    "freq": 0.0181
+  },
+  {
+    "media": "<img src=\"ebird2anki-amgplo-39395681.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "American Golden-Plover",
+    "scientificName": "Pluvialis dominica",
+    "answerMedia": "[sound:ebird2anki-amgplo-548409.mp3]",
+    "freq": 0.0232
+  },
+  {
+    "media": "[sound:ebird2anki-royalb3-534951.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "Northern Royal Albatross",
+    "scientificName": "Diomedea sanfordi",
+    "answerMedia": "<img src=\"ebird2anki-royalb3-609704455.jpg\">",
+    "freq": 0.0243
+  },
+  {
+    "media": "<img src=\"ebird2anki-royalb3-609704457.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Northern Royal Albatross",
+    "scientificName": "Diomedea sanfordi",
+    "answerMedia": "[sound:ebird2anki-royalb3-534949.mp3]",
+    "freq": 0.0243
+  },
+  {
+    "media": "<img src=\"ebird2anki-amgplo-297938311.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "American Golden-Plover",
+    "scientificName": "Pluvialis dominica",
+    "answerMedia": "[sound:ebird2anki-amgplo-548414.mp3]",
+    "freq": 0.0232
+  },
+  {
+    "media": "<img src=\"ebird2anki-royalb2-116225081.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Southern Royal Albatross",
+    "scientificName": "Diomedea epomophora",
+    "answerMedia": "[sound:ebird2anki-royalb2-534948.mp3]",
+    "freq": 0.0181
+  },
+  {
+    "media": "<img src=\"ebird2anki-amgplo-34642751.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "American Golden-Plover",
+    "scientificName": "Pluvialis dominica",
+    "answerMedia": "[sound:ebird2anki-amgplo-548409.mp3]",
+    "freq": 0.0232
+  },
+  {
+    "media": "<img src=\"ebird2anki-royalb2-116225071.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Southern Royal Albatross",
+    "scientificName": "Diomedea epomophora",
+    "answerMedia": "[sound:ebird2anki-royalb2-534948.mp3]",
+    "freq": 0.0181
+  },
+  {
+    "media": "<img src=\"ebird2anki-amgplo-324140401.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "American Golden-Plover",
+    "scientificName": "Pluvialis dominica",
+    "answerMedia": "[sound:ebird2anki-amgplo-548412.mp3]",
+    "freq": 0.0232
+  },
+  {
+    "media": "<img src=\"ebird2anki-lessap2-609703554.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Siberian Sand-Plover",
+    "scientificName": "Anarhynchus mongolus",
+    "answerMedia": "[sound:ebird2anki-lessap2-537844.mp3]",
+    "freq": 0.0145
+  },
+  {
+    "media": "[sound:ebird2anki-royalb2-534948.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "Southern Royal Albatross",
+    "scientificName": "Diomedea epomophora",
+    "answerMedia": "<img src=\"ebird2anki-royalb2-609704168.jpg\">",
+    "freq": 0.0181
+  },
+  {
+    "media": "[sound:ebird2anki-amgplo-548409.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "American Golden-Plover",
+    "scientificName": "Pluvialis dominica",
+    "answerMedia": "<img src=\"ebird2anki-amgplo-297938101.jpg\">",
+    "freq": 0.0232
+  },
+  {
+    "media": "<img src=\"ebird2anki-royalb2-116225111.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Southern Royal Albatross",
+    "scientificName": "Diomedea epomophora",
+    "answerMedia": "[sound:ebird2anki-royalb2-534948.mp3]",
+    "freq": 0.0181
+  },
+  {
+    "media": "<img src=\"ebird2anki-royalb2-609704182.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Southern Royal Albatross",
+    "scientificName": "Diomedea epomophora",
+    "answerMedia": "[sound:ebird2anki-royalb2-534948.mp3]",
+    "freq": 0.0181
+  },
+  {
+    "media": "<img src=\"ebird2anki-amgplo-297938271.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "American Golden-Plover",
+    "scientificName": "Pluvialis dominica",
+    "answerMedia": "[sound:ebird2anki-amgplo-548411.mp3]",
+    "freq": 0.0232
+  },
+  {
+    "media": "<img src=\"ebird2anki-royalb2-609704183.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Southern Royal Albatross",
+    "scientificName": "Diomedea epomophora",
+    "answerMedia": "[sound:ebird2anki-royalb2-534948.mp3]",
+    "freq": 0.0181
+  },
+  {
+    "media": "<img src=\"ebird2anki-wespet1-110137011.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Westland Petrel",
+    "scientificName": "Procellaria westlandica",
+    "answerMedia": "[sound:ebird2anki-wespet1-534975.mp3]",
+    "freq": 0.003
+  },
+  {
+    "media": "[sound:ebird2anki-amgplo-548408.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "American Golden-Plover",
+    "scientificName": "Pluvialis dominica",
+    "answerMedia": "<img src=\"ebird2anki-amgplo-34642751.jpg\">",
+    "freq": 0.0232
+  },
+  {
+    "media": "<img src=\"ebird2anki-amgplo-297938391.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "American Golden-Plover",
+    "scientificName": "Pluvialis dominica",
+    "answerMedia": "[sound:ebird2anki-amgplo-548413.mp3]",
+    "freq": 0.0232
+  },
+  {
+    "media": "[sound:ebird2anki-amgplo-548414.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "American Golden-Plover",
+    "scientificName": "Pluvialis dominica",
+    "answerMedia": "<img src=\"ebird2anki-amgplo-34645721.jpg\">",
+    "freq": 0.0232
+  },
+  {
+    "media": "<img src=\"ebird2anki-lessap2-609703547.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Siberian Sand-Plover",
+    "scientificName": "Anarhynchus mongolus",
+    "answerMedia": "[sound:ebird2anki-lessap2-537844.mp3]",
+    "freq": 0.0145
+  },
+  {
+    "media": "[sound:ebird2anki-lessap2-537844.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "Siberian Sand-Plover",
+    "scientificName": "Anarhynchus mongolus",
+    "answerMedia": "<img src=\"ebird2anki-lessap2-609703549.jpg\">",
+    "freq": 0.0145
+  },
+  {
+    "media": "<img src=\"ebird2anki-lessap2-609703552.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Siberian Sand-Plover",
+    "scientificName": "Anarhynchus mongolus",
+    "answerMedia": "[sound:ebird2anki-lessap2-537844.mp3]",
+    "freq": 0.0145
+  },
+  {
+    "media": "<img src=\"ebird2anki-royalb2-609704168.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Southern Royal Albatross",
+    "scientificName": "Diomedea epomophora",
+    "answerMedia": "[sound:ebird2anki-royalb2-534948.mp3]",
+    "freq": 0.0181
+  },
+  {
+    "media": "<img src=\"ebird2anki-royalb2-609704181.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Southern Royal Albatross",
+    "scientificName": "Diomedea epomophora",
+    "answerMedia": "[sound:ebird2anki-royalb2-534948.mp3]",
+    "freq": 0.0181
+  },
+  {
+    "media": "<img src=\"ebird2anki-royalb2-609704185.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Southern Royal Albatross",
+    "scientificName": "Diomedea epomophora",
+    "answerMedia": "[sound:ebird2anki-royalb2-534948.mp3]",
+    "freq": 0.0181
+  },
+  {
+    "media": "<img src=\"ebird2anki-wespet1-110137051.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Westland Petrel",
+    "scientificName": "Procellaria westlandica",
+    "answerMedia": "[sound:ebird2anki-wespet1-534975.mp3]",
+    "freq": 0.003
+  },
+  {
+    "media": "<img src=\"ebird2anki-lessap2-609703549.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Siberian Sand-Plover",
+    "scientificName": "Anarhynchus mongolus",
+    "answerMedia": "[sound:ebird2anki-lessap2-537844.mp3]",
+    "freq": 0.0145
+  },
+  {
+    "media": "<img src=\"ebird2anki-lessap2-609703548.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Siberian Sand-Plover",
+    "scientificName": "Anarhynchus mongolus",
+    "answerMedia": "[sound:ebird2anki-lessap2-537844.mp3]",
+    "freq": 0.0145
+  },
+  {
+    "media": "<img src=\"ebird2anki-lessap2-621309914.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Siberian Sand-Plover",
+    "scientificName": "Anarhynchus mongolus",
+    "answerMedia": "[sound:ebird2anki-lessap2-537844.mp3]",
+    "freq": 0.0145
+  },
+  {
+    "media": "[sound:ebird2anki-wespet1-534975.mp3]",
+    "questionPlaceholder": "🎵",
+    "commonName": "Westland Petrel",
+    "scientificName": "Procellaria westlandica",
+    "answerMedia": "<img src=\"ebird2anki-wespet1-110137011.jpg\">",
+    "freq": 0.003
+  },
+  {
+    "media": "<img src=\"ebird2anki-lessap2-609703551.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Siberian Sand-Plover",
+    "scientificName": "Anarhynchus mongolus",
+    "answerMedia": "[sound:ebird2anki-lessap2-537844.mp3]",
+    "freq": 0.0145
+  },
+  {
+    "media": "<img src=\"ebird2anki-lessap2-609703550.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Siberian Sand-Plover",
+    "scientificName": "Anarhynchus mongolus",
+    "answerMedia": "[sound:ebird2anki-lessap2-537844.mp3]",
+    "freq": 0.0145
+  },
+  {
+    "media": "<img src=\"ebird2anki-wespet1-110137061.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Westland Petrel",
+    "scientificName": "Procellaria westlandica",
+    "answerMedia": "[sound:ebird2anki-wespet1-534975.mp3]",
+    "freq": 0.003
+  },
+  {
+    "media": "<img src=\"ebird2anki-wespet1-110137071.jpg\">",
+    "questionPlaceholder": "",
+    "commonName": "Westland Petrel",
+    "scientificName": "Procellaria westlandica",
+    "answerMedia": "[sound:ebird2anki-wespet1-534975.mp3]",
+    "freq": 0.003
+  }
+]

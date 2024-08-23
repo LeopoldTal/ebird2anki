@@ -144,6 +144,11 @@ const makeAudioCard = ({ mediaFileName, commonName, sciName, freq }, photos, ind
 const parseBird = async(fpath) => {
 	const slug = fpath.split('/').pop().split('.html')[0];
 	const bird = BIRDS[slug];
+	if (!bird) {
+		console.warn('Skipping', slug);
+		return [];
+	}
+	console.debug(bird);
 	const page = fs.readFileSync(fpath, 'utf8');
 
 	const photos = getMedia(page, /\bphotoAssetsJson\s*=/, fpath, bird);
